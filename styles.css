@@ -1,0 +1,35 @@
+*{
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(221, 255, 255);
+}
+
+h1.main{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h6.main{
+    text-align: right;
+}
+
+.homepage-pic{
+    text-align: center;
+}
+
+img{
+    height: 300;
+    width: auto;
+}
+
+.main-list{
+    list-style: none;
+    text-align: center;
+}
+
+.main-list li{
+    font-size: 20px;
+    margin: 20px;
+    display: inline;
+    text-align: center;
+}
