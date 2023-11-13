@@ -1,0 +1,40 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title{
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#main-pic{
+    height: 300px;
+    width: auto;
+    right: 10px;
+}
+
+.descripcion{
+    background-color: rgb(219, 219, 42);
+    padding: 55px;
+}
+
+#main-pic,
+.ingredientes,
+.preparacion,
+#ret-hp{
+    float: left;
+}
+
+.ingredientes{
+    background-color: blueviolet;
+    color: white;
+}
+
+.preparacion{
+    background-color: rgb(43, 226, 70);
+}
+
+#ret-hp{
+}
