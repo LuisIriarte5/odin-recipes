@@ -1,5 +1,7 @@
 *{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1500px;
+    margin: auto;
 }
 
 #title{
@@ -9,26 +11,74 @@
     text-decoration: underline;
 }
 
-.img-alinear{
-    text-align: center;
+.img-principal{
+    margin-bottom: 10px;
+}
+
+#main-pic,
+.descripcion{
+    height: 350px;
+}
+
+#main-pic,
+.ingredientes,
+.preparacion{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #main-pic{
-    height: 400px;
-    width: auto;
+    margin-bottom: -350px;
+}
+
+.ingredientes,
+.preparacion{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .descripcion{
-    background-color: rgb(219, 219, 42);
+    background-color: rgb(226, 226, 120);
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.descripcion h3{
+    background-color: rgb(162, 162, 38);
+}
+
+h3{
+    margin: 0;
+    padding: 10px;
+}
+
+p{
+    padding: 20px 20px 0 20px;
+    text-align: justify;
+}
+
+ul,
+ol{
+    padding: 10px 20px 10px 50px;
 }
 
 .ingredientes{
-    background-color: blueviolet;
+    background-color: rgb(159, 82, 232);
     color: white;
 }
 
+.ingredientes h3{
+    background-color: rgb(102, 27, 171);
+}
+
+
+
 .preparacion{
-    background-color: rgb(43, 226, 70);
+    background-color: rgb(89, 236, 111);
+}
+
+.preparacion h3{
+    background-color: rgb(47, 184, 68);
 }
 
 div .inside-img{
@@ -36,9 +86,14 @@ div .inside-img{
     width: auto;
 }
 
+.img-alinear{
+    text-align: center;
+}
+
 .external-link{
     background-color: white;
 }
 
-#ret-hp{
+.external-link:hover{
+    background-color: rgb(255, 196, 196);
 }
