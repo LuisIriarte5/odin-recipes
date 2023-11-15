@@ -1,38 +1,61 @@
 *{
     font-family: Tahoma, sans-serif;
-    background-color: rgb(221, 255, 255);
+    max-width: 900px;
 }
 
-h1.main{
+.content{
+    background-color: rgb(221, 255, 255);
+    height: 730px;
+    margin: 10px;
+}
+
+#title{
     font-size: 40px;
     text-decoration: underline;
     text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-h6.main{
+#subtitle{
     text-align: right;
+    margin-top: 0;
 }
 
 .homepage-pic{
     text-align: center;
+    margin: 8px;
 }
 
-img{
-    height: 300;
-    width: auto;
+.homepage-pic img{
+    height: auto;
+    width: 500px;
 }
 
 .main-list{
     list-style: none;
     text-align: center;
+    margin: 20px;
+    padding: 0;
 }
 
 .main-list li{
     font-size: 20px;
-    margin: 20px;
-    display: inline;
-    text-align: center;
-    color: white;
-    padding: 1em;
+    display: inline-block;
+    padding: 20px;
+    width: 150px;
     border: 5px solid rgb(128, 0, 255);
+    margin-left: 20px;
+}
+.break{
+    margin-top: 20px;
+}
+
+li:hover{
+    border-color: brown;
+    background-color: rgb(158, 101, 101);
+}
+
+#las{
+    padding-top: 43px;
 }
