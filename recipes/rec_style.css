@@ -71,8 +71,6 @@ ol{
     background-color: rgb(102, 27, 171);
 }
 
-
-
 .preparacion{
     background-color: rgb(89, 236, 111);
 }
@@ -96,4 +94,11 @@ div .inside-img{
 
 .external-link:hover{
     background-color: rgb(255, 196, 196);
+}
+
+#ret-hp{
+    border: 1px solid;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 10px 0;
 }
